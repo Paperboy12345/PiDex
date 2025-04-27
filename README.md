@@ -1,5 +1,6 @@
 # PiDex
-![raspberry-pi-icon-2048x2048-p0y4r07x](https://github.com/user-attachments/assets/762f1186-ae1e-43ef-a574-1df9509b6cb0)
+![raspberrypi-icon-size_512](https://github.com/user-attachments/assets/595bd7f4-3e06-4e61-8ae8-d0485788bb1a)
+
 
 The PiDex is a DIY handheld wireless communication hacking and development device powered by a Raspberry Pi Zero 2 WH, a great, cheaper, DIY alternitave to the Flipper Zero.
 Hack TVs, Computers with BadUSB, Radio signals, NFC cards, RFID, Network hacking with WIFI, Bluetooth hacking and jamming, Infared, add onto the GPIO pins inside.
