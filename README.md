@@ -5,14 +5,14 @@ Hack TVs, Computers with BadUSB, Radio signals, NFC cards, RFID, Network hacking
 Designed for makers, tinkerers, electronic hobbyists, and hackers who want more than just another locked box.
 This project is about building it yourself — soldering, failing, fixing — and actually understanding the magic inside your device.
 
-Using my custom PCB ive designed, a list of epic communication modules and my custom firmware built off of the Raspbian-OS 32 bit lite.
-You will assemble it yourself and put it in a tight 3d-printed package.
+Using my custom PCB ive designed, a list of epic communication modules and the PiDex firmware built off of the Raspbian-OS 32 bit lite.
+You will assemble it yourself and put it in a tight 3d-printed package. Following my simple guide.
 
 The point of the PiDex is to teach, innovate, and allow people to access wireless hacking devices easily and fully understand how they work.
 
 What do i need?
 Custom pcb, files attached. Can be ordered at JLCPCB or PCBWAY.
-3d-printed case, attached. Can be ordered at JLCPCB or PCBWAY.
+3d-printed case, files attached. Can be ordered at JLCPCB or PCBWAY.
 A soldering Iron.
 Raspberry Pi Zero 2 WH.
 OLED Display 1.54".
@@ -27,6 +27,8 @@ Buzzer.
 6 Buttons.
 6 10k resistors.
 18650 Battery.
+3 pin power switch.
+PCB pins.
 
 Aliexpress shopping list attached at the end.
 
@@ -35,8 +37,6 @@ Aliexpress shopping list attached at the end.
 
 
 https://www.aliexpress.com/item/1005008834082735.html?spm=a2g0o.cart.0.0.32f338da32ybyM&mp=1&pdp_npi=5%40dis%21EUR%21EUR%204.99%21EUR%204.74%21%21%21%21%21%40211b6a7a17454542577195940e1987%2112000046877546506%21ct%21IE%212655202967%21%211%210
-
-1pcs
 
 https://www.aliexpress.com/item/1005006221027442.html?spm=a2g0o.cart.0.0.32f338da32ybyM&mp=1&pdp_npi=5%40dis%21EUR%21EUR%205.11%21EUR%205.11%21%21%21%21%21%40211b6a7a17454542577195940e1987%2112000046799747563%21ct%21IE%212655202967%21%211%210
 
