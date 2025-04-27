@@ -1,22 +1,18 @@
 # PiDex
-![raspberrypi-icon-size_512](https://github.com/user-attachments/assets/595bd7f4-3e06-4e61-8ae8-d0485788bb1a)
-
-
 The PiDex is a DIY handheld wireless communication hacking and development device powered by a Raspberry Pi Zero 2 WH, a great, cheaper, DIY alternitave to the Flipper Zero.
 Hack TVs, Computers with BadUSB, Radio signals, NFC cards, RFID, Network hacking with WIFI, Bluetooth hacking and jamming, Infared, add onto the GPIO pins inside.
-
+## What is it?
 Designed for makers, tinkerers, electronic hobbyists, and hackers who want more than just another locked box.
 This project is about building it yourself — soldering, failing, fixing — and actually understanding the magic inside your device.
-
-Using my custom PCB ive designed, a list of epic communication modules and the PiDex firmware built off of the Raspbian-OS 32 bit lite.
+## Can i make it?
+Using my custom PCB ive designed, a list of epic communication modules and the PiDex firmware built off of the Raspbian-OS 32 bit lite,
 You will assemble it yourself and put it in a tight 3d-printed package. Following my simple guide.
 
 The point of the PiDex is to teach, innovate, and allow people to access wireless hacking devices easily and fully understand how they work.
 
-What do i need?
-Custom pcb, files attached. Can be ordered at JLCPCB or PCBWAY.
-3d-printed case, files attached. Can be ordered at JLCPCB or PCBWAY.
-A soldering Iron.
+# Whats in the package:
+Custom PCB.
+3d-printed case.
 Raspberry Pi Zero 2 WH.
 OLED Display 1.54".
 CC1101 Module.
@@ -32,11 +28,6 @@ Buzzer.
 18650 Battery.
 3 pin power switch.
 PCB pins.
-
-Aliexpress shopping list attached at the end.
-
-- Nathan S, Creator
-
 
 
 https://www.aliexpress.com/item/1005008834082735.html?spm=a2g0o.cart.0.0.32f338da32ybyM&mp=1&pdp_npi=5%40dis%21EUR%21EUR%204.99%21EUR%204.74%21%21%21%21%21%40211b6a7a17454542577195940e1987%2112000046877546506%21ct%21IE%212655202967%21%211%210
