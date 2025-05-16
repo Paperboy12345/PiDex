@@ -5,7 +5,7 @@ from luma.core.interface.serial import i2c
 from luma.oled.device import sh1106
 from luma.core.render import canvas
 from keyboard import get_text_input
-
+print("terminal running")
 serial = i2c(port=1, address=0x3C)
 device = sh1106(serial)
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
