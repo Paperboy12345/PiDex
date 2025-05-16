@@ -1,5 +1,5 @@
 from gpiozero import Button
-
+print("buttons running")
 BUTTON_GPIO = {
 	"UP": 5,
 	"DOWN": 6,
