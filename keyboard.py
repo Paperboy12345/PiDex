@@ -12,7 +12,7 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
 layouts = [
 	[list("qwertyuiop"), list("asdfghjkl"), list("zxcvbnm"), ["SPACE", "BACK", "→"]],
 	[list("QWERTYUIOP"), list("ASDFGHJKL"), list("ZXCVBNM"), ["SPACE", "BACK", "←", "→"]],
-	[list("1234567890"), list("!@#$%^&*()"), list("-_=+[]{}.'"), ["SPACE", "BACK", "←"]]
+	[list("1234567890"), list("!@#$%^&*()"), list("-_=+[]{}.'\""), ["SPACE", "BACK", "←"]]
 ]
 
 def get_text_input(buttons):
