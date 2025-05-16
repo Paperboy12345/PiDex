@@ -19,24 +19,35 @@ def run_command(cmd):
 	except Exception as e:
 		return [f"Exception: {str(e)}"]
 
+def wait_for_press(buttons, names):
+	while True:
+		for name in names:
+			if buttons[name].is_pressed:
+				while buttons[name].is_pressed:
+					time.sleep(0.05)
+				return name
+		time.sleep(0.05)
+
 def launch_terminal(buttons):
 	while True:
 		device.clear()
 		with canvas(device) as draw:
-			draw.text((0, 0), "OK = type", font=font, fill=1)
-			draw.text((0, 12), "BACK = exit", font=font, fill=1)
-		time.sleep(0.1)
+			draw.text((0, 0), "Press OK to type", font=font, fill=1)
+			draw.text((0, 12), "Press BACK to exit", font=font, fill=1)
 
-		if buttons["OK"].is_pressed:
-			cmd = get_text_input(buttons)
-			output = run_command(cmd)
-			device.clear()
-			with canvas(device) as draw:
-				draw.text((0, 0), f"$ {cmd}", font=font, fill=1)
-				for i, line in enumerate(output[-4:]):
-					draw.text((0, 12 + i * 10), line[:21], font=font, fill=1)
-			time.sleep(2)
-
-		if buttons["BACK"].is_pressed:
+		pressed = wait_for_press(buttons, ["OK", "BACK"])
+		if pressed == "BACK":
 			device.clear()
 			break
+
+		cmd = get_text_input(buttons)
+		output = run_command(cmd)
+
+		device.clear()
+		with canvas(device) as draw:
+			draw.text((0, 0), f"$ {cmd}", font=font, fill=1)
+			for i, line in enumerate(output[-4:]):
+				draw.text((0, 12 + i * 10), line[:21], font=font, fill=1)
+
+		time.sleep(0.5)
+		wait_for_press(buttons, ["OK", "BACK"])
